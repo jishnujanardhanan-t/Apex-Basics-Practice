@@ -1,6 +1,6 @@
 # Salesforce Apex Learning Path
 
-Welcome — this repository is my Apex learning path. It contains beginner-friendly exercises organized by topic to show my progress from basics to intermediate Salesforce development.
+This repository is my Apex learning path. It contains beginner-friendly exercises organized by topic to show my progress from basics to intermediate Salesforce development.
 
 ## Topics Covered
 1. Variables & Data Types (`1_VariablesAndDataTypes`)
