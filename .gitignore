@@ -1,0 +1,11 @@
+# Salesforce DX
+.sfdx/
+*.log
+*.tmp
+*.zip
+
+# VS Code
+.vscode/
+
+# Node / NPM
+node_modules/
