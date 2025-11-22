@@ -8,6 +8,8 @@ This repository is my Apex learning path. It contains beginner-friendly exercise
 3. Conditional Statements (`3_ConditionalStatements`)
 4. Switch Statements (`4_SwitchStatements`)
 5. Loops (`5_Loops`)
+6. Methods(`6_Methods`)
+7. Constructors(`7_Constructors`)
 
 ---
 
