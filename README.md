@@ -10,6 +10,7 @@ This repository is my Apex learning path. It contains beginner-friendly exercise
 5. Loops (`5_Loops`)
 6. Methods(`6_Methods`)
 7. Constructors(`7_Constructors`)
+8. Constructors(`8_Collections`)
 
 ---
 
