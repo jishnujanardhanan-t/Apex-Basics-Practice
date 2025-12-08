@@ -11,6 +11,7 @@ This repository is my Apex learning path. It contains beginner-friendly exercise
 6. Methods(`6_Methods`)
 7. Constructors(`7_Constructors`)
 8. Constructors(`8_Collections`)
+9. SOQL(`9_SOQL`)
 
 ---
 
