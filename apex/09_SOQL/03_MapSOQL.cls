@@ -1,10 +1,10 @@
 public class VariableBindingMapExamples {
 
     /*
-     * ============================================================
+     * 
      *  SCENARIO 1:
      *  Get Accounts by Industry → Use Set<String> from Map → Bind in SOQL
-     * ============================================================
+     * 
      */
     public static Map<String, List<Account>> getAccountsByIndustry(Map<String, Boolean> industryFilterMap) {
 
@@ -41,14 +41,14 @@ public class VariableBindingMapExamples {
 
 
     /*
-     * ============================================================
+     * 
      *  SCENARIO 2:
      *  Get Contacts for given Accounts → Use Map<Id, ??> keys → Bind in SOQL
-     * ============================================================
+     * 
      */
     public static Map<Id, List<Contact>> getContactsByAccount(Map<Id, Decimal> accountRatingMap) {
 
-        Set<Id> accountIds = accountRatingMap.keySet();   // Variable binding
+        Set<Id> accountIds = accountRatingMap.keySet();   
 
         if (accountIds.isEmpty()) return new Map<Id, List<Contact>>();
 
@@ -73,11 +73,11 @@ public class VariableBindingMapExamples {
 
 
     /*
-     * ============================================================
+     * 
      *  SCENARIO 3:
      *  Get Opportunity Total Amount by Stage for given Stage Filters
      *  Using Aggregation + Typecasting + Map Output
-     * ============================================================
+     * 
      */
     public static Map<String, Decimal> getOpportunityAmountByStage(Map<String, Boolean> stageFilterMap) {
 
@@ -102,8 +102,8 @@ public class VariableBindingMapExamples {
         Map<String, Decimal> result = new Map<String, Decimal>();
 
         for (AggregateResult ar : arList) {
-            String stage = (String) ar.get('stage');         // typecast required
-            Decimal totalAmount = (Decimal) ar.get('total'); // typecast required
+            String stage = (String) ar.get('stage');         
+            Decimal totalAmount = (Decimal) ar.get('total'); 
             result.put(stage, totalAmount);
         }
 
