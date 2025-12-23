@@ -11,11 +11,12 @@ This repository is my Apex learning path. It contains beginner-friendly exercise
 6. Methods(`6_Methods`)
 7. Constructors(`7_Constructors`)
 8. Constructors(`8_Collections`)
+9. SOQL(`9_SOQL`)
 
 ---
 
 ## Highlights
-- Focus: Apex basics (variables, operators, control flow, loops)
+- Focus: Apex basics (variables, operators, conditional statements, control flow, loops, collections, SOQL)
 - Format: Each folder contains `.cls` files with small exercises
 - How to use: open the folder you’re interested in and view the example classes
 
