@@ -18,7 +18,7 @@ This repository is my Apex learning path. It contains beginner-friendly exercise
 ---
 
 ## Highlights
-- Focus: Apex basics (variables, operators, conditional statements, control flow, loops, collections, SOQL)
+- Focus: Apex basics (variables, operators, conditional statements, control flow, loops, collections, SOQL, SOSL, DML)
 - Format: Each folder contains `.cls` files with small exercises
 - How to use: open the folder you’re interested in and view the example classes
 
